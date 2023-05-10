@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+    margin-top: 30px;
+    padding-right: 15px;
+}
+
+.container {
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 5px solid orange;
+    height: 600px;
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+   padding-left: 100px;
+  /*  padding-right: 00px;*/
+    align-items: center;
+
+}
+
+
+
+img {
+    border-radius: 25px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.container {
+    color: orange;
+    text-decoration: underline;
+}
+
+p.home_options {
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.button {
+    background-color: orange;
+}
+
+input [type=text] {
+    border: none;
+    border-bottom: 2px solid orange;
+    width: 150px;
+}
