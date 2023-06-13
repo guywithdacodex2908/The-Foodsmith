@@ -34,19 +34,57 @@
             <label for="cemail">Confirm E-mail</label><br>
             <input type="email" id="cemail" name="e-mail"><br>
             <br>
-            <label for="password">Pssword</label><br>
+            <label for="password">Password</label><br>
             <input type="password" required="true" min="6" max="12" id="password" name="password"><br>
             <br>
             <label for="cpassword">Confirm Password</label><br>
             <input type="password" required="true" min="6" max="12" id="cpassword" name="password"><br>
             <br>
-            <label for="survey">How did you hear about us(optional)</label><br>
-            <input type="radio" id="survey" name="survey">
-        </div>
+            <p>How did you hear about us(optional)</p>
+            <form>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      From a friend
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Through Social Media Ads
+                    </label>
+                  </div>
+            <br>
         </form>
-
-        <button type="button" onclick="alert('Information Registered Successfully')">Submit</button>
+        
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Submit
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Submitted!!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Your provided information has been saved successfully. However if you think you have made a mistake while filling the forms you can choose to go <b>back</b>, otherwise click <b>Continue</b> 
+        </div>
+        <div class="modal-footer">
+          <button type="" class="btn btn-light" data-bs-dismiss="modal">Back</button>
+          <a href="homepage.html"><button type="button" class="btn btn-light">Save and Continue</button></a>
+        </div>
+      </div>
     </div>
+  </div>
+  <br>
+  <br>
+    <p>You already have an account? <a class="login" href="login.html">Click Here</a></p>
+</form>
+</div>
 
     </body>
 </html>

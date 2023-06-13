@@ -4,7 +4,6 @@
 
 
 .container {
-    text-align: center;
     border-radius: 15px;
     border: 5px solid orange;
     height: 900px;
@@ -26,7 +25,7 @@ img {
 }
 
 form {
-    text-align: start;
+    align-items: start;
 }
 
 input {
@@ -62,3 +61,40 @@ input {
     transition: 0.5s;
   }
 */
+.btn {
+  color: white;
+  background-color: orange;
+  border: 2px solid orange;
+  align-content: center;
+  border: none;
+}
+
+.btn :hover {
+    cursor: pointer;
+    color: orange;
+    background-color: red;
+}
+
+  a:link {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: orangered;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+}
